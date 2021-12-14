@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d611f9-8e87-49b6-b38b-51fe3ad707f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/vowel_remover.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/vowel_remover_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/school_paperwork.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/school_paperwork_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <workItem from="1633971076074" duration="126000" />
       <workItem from="1633971222447" duration="5275000" />
       <workItem from="1634638741376" duration="2133000" />
-      <workItem from="1639418540960" duration="4571000" />
+      <workItem from="1639418540960" duration="5135000" />
     </task>
     <servers />
   </component>
