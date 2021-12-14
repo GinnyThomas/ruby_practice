@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d611f9-8e87-49b6-b38b-51fe3ad707f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/perimeter_sequence.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/perimeter_sequence_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/largest_square_in_circle.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/largest_square_in_circle_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zMw42A27cin5cwPbBsXL8gBybD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,7 +92,7 @@
       <workItem from="1633971076074" duration="126000" />
       <workItem from="1633971222447" duration="5275000" />
       <workItem from="1634638741376" duration="2133000" />
-      <workItem from="1639418540960" duration="5655000" />
+      <workItem from="1639418540960" duration="7153000" />
     </task>
     <servers />
   </component>
