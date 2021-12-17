@@ -1,10 +1,10 @@
-names= "Fred:Corwill"
+names= "Fred:Corwill;Wilfred:Corwill"
 def meeting(names)
 
-  name_array = names.upcase.split(':')
-  name_string = name_array.reverse.join(', ')
-  #name_array = name_string.to_a
-
+  new_names = names.upcase.gsub(/[:]/, ' ').split(';')
+  #p name_string = new_names.join('","' )
+  #p name_string.split.reverse.join(", ")
+  p new_array = new_names.map { | person | person.split.reverse.join(", ") }
 
 end
 

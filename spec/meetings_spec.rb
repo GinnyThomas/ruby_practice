@@ -16,6 +16,6 @@ require_relative '../lib/meetings'
 
 RSpec.describe 'meetings' do
   it 'it sorts meeting invite names in alphabetical order and uppercase' do
-    expect(meeting("Fred:Corwill")).to eq("CORWILL, FRED")
+    expect(meeting("Fred:Corwill;Wilfred:Corwill")).to eq("CORWILL, FRED\nCORWILL, WILFRED")
   end
 end
