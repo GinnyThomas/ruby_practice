@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d611f9-8e87-49b6-b38b-51fe3ad707f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/largest_square_in_circle.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/largest_square_in_circle_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/meetings.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/meetings_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +92,11 @@
       <workItem from="1633971076074" duration="126000" />
       <workItem from="1633971222447" duration="5275000" />
       <workItem from="1634638741376" duration="2133000" />
-      <workItem from="1639418540960" duration="7153000" />
+      <workItem from="1639418540960" duration="13224000" />
+      <workItem from="1639742694486" duration="590000" />
+      <workItem from="1639749749234" duration="307000" />
+      <workItem from="1639755299238" duration="183000" />
+      <workItem from="1639759826428" duration="959000" />
     </task>
     <servers />
   </component>
@@ -109,6 +113,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ruby_practice@spec.rcov" NAME="spec Coverage Results" MODIFIED="1633972014965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="ruby-practice" />
