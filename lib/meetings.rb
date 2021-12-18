@@ -1,10 +1,15 @@
-names= "Fred:Corwill;Wilfred:Corwill"
-def meeting(names)
+names_string= "Fred:Corwill;Wilfred:Corwill;Barney:Tornbull;Betty:Tornbull;Bjon:Tornbull;Raphael:Corwill;Alfred:Corwill"
 
-  new_names = names.upcase.gsub(/[:]/, ' ').split(';')
+
+def getNames(input)
+  new_names = input.upcase.gsub(/[:]/, ' ').split(';')
   #p name_string = new_names.join('","' )
   #p name_string.split.reverse.join(", ")
-  p new_array = new_names.map { | person | person.split.reverse.join(", ") }
+  new_names.map { | person | person.split.reverse.join(", ") }
+end
+
+def meeting(names_string)
+  p getNames(names_string).sort.map { |person| "(#{person})" }.join
 
 end
 
@@ -13,3 +18,5 @@ end
 # reorder each name last name first, a comma, then first name
 # reorder list by alphabetical order
 # separate names by ()
+
+#
