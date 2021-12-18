@@ -7,7 +7,6 @@
     <list default="true" id="24d611f9-8e87-49b6-b38b-51fe3ad707f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/meetings.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/meetings.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/meetings_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/meetings_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1639742694486" duration="590000" />
       <workItem from="1639749749234" duration="307000" />
       <workItem from="1639755299238" duration="183000" />
-      <workItem from="1639759826428" duration="6766000" />
+      <workItem from="1639759826428" duration="7284000" />
     </task>
     <servers />
   </component>
