@@ -7,7 +7,7 @@ def getNames(s)
 end
 
 def meeting(names_string)
-  getNames(names_string).sort.map { |person| "(#{person})" }.join
+  p getNames(names_string).sort.map { |person| "(#{person})" }.join
 end
 
 # I want to
