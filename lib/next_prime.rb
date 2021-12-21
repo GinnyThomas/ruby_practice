@@ -27,26 +27,15 @@
 
 require 'prime'
 
-
 def next_prime(n)
-  next_odd_num(n) # sets @next_odd
-  while Prime.prime?(@next_odd) == false
-    @next_odd += 2
-    p "next odd is: #{@next_odd}"
-    end
-    p "prime is true for #{@next_odd}"
-    return @next_odd
-  @next_odd
+  next_num = n + 1
+  while Prime.prime?(next_num) == false
+    next_num += 1
+  end
+  next_num
 end
 
-def next_odd_num(n)
-  if n.odd?
-    @next_odd = n + 2
-  else
-    @next_odd = n + 1
-  end
-  @next_odd
-end
+
 #To solve this on paper I would:
 # 1) take n and increase it by 1 or 2 to get it to the next odd number (i.e. except 2, an even number is not a prime number)
 # 2) I would start to divide the next_odd_number by prime numbers.  If the number has a remainder, I
