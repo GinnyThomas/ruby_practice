@@ -25,24 +25,18 @@
 #   next_odd + 2
 # end
 
-def next_prime(n)
-  if n < 2
-    return 2
-  else
-    next_odd_num(n)
+require 'prime'
 
-    l=1
-    divider = 3 # starting at 3 because it is first prime number
-    while divider <= n
-       if @next_odd % divider != 0
-          divider += 2
-          l += 1
-       else
-          @next_odd += 2
-       end
+
+def next_prime(n)
+  next_odd_num(n) # sets @next_odd
+  while Prime.prime?(@next_odd) == false
+    @next_odd += 2
+    p "next odd is: #{@next_odd}"
     end
-    @next_odd
-  end
+    p "prime is true for #{@next_odd}"
+    return @next_odd
+  @next_odd
 end
 
 def next_odd_num(n)
@@ -55,15 +49,15 @@ def next_odd_num(n)
 end
 #To solve this on paper I would:
 # 1) take n and increase it by 1 or 2 to get it to the next odd number (i.e. except 2, an even number is not a prime number)
-# 2) I would start to divide the next_odd_number by odd numbers.  If the number has a remainder, I
-# will go to the next odd number
+# 2) I would start to divide the next_odd_number by prime numbers.  If the number has a remainder, I
+# will go to the next prime
 # example: = 17 + 2
 # next_odd_number = 19
 # 19 / 3 = 6.33
 # 19 / 5 = 3.8
 # 19 / 7 = 2.714
 #
-# 2A) if the number is divisible by an odd number, as with 7 if n was 259, it is not a prime number and I
+# 2A) if the number is divisible by a prime number, as with 7 if n was 259, it is not a prime number and I
 # would add 2 (i.e. next_odd_number + 2) and start the process of 2 over.
 # 261 / 3 = 87
 # next_odd_number + 2 = 263
