@@ -8,9 +8,10 @@ def median(array)
     integers << (array.sort[array.count/2])
     integers << (array.sort[(array.count/2)-1])
     p integers
-    p (integers[0] + integers[1])/2.to_f
+    p (integers[0] + integers[1]).fdiv(2)
   end
 end
+
 
 
 
