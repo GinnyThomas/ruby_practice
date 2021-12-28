@@ -28,3 +28,17 @@ end
 #   end
 #   tot
 # end
+#
+# def screws(screws_string)
+#   screw_array = screws_string.chars
+#   seconds = screw_array.count*2-1
+#   # screw_array.map { |screw| if screw_array[screw] != screw_array[screw-1]; seconds += 5 end } - Cannot do this - receive an error "No implicit conversion of string into integer"
+#   # instead, need to compare the index of the string
+#   for i in 1..screws_string.size-1
+#     if screws_string[i] != screws_string[i-1]
+#       seconds +=5
+#     end
+#   end
+#   seconds
+# end
+# I don't like that any better than my solution
