@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d611f9-8e87-49b6-b38b-51fe3ad707f5" name="Changes" comment="updated divide to float to fdiv(2)">
-      <change afterPath="$PROJECT_DIR$/lib/DNA_to_RNA_conversion.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/DNA_to_RNA_Conversion_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ASCII_total.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/extract_domain.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pirates.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/ASCII_total_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/extract_domain_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/pirates_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/remove_screws_i.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/remove_screws_i.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pair_of_gloves.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pair_of_gloves.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/pair_of_gloves_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/pair_of_gloves_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +57,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="tms.main" />
   </component>
   <component name="RunManager">
     <configuration name="spec" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -97,7 +103,10 @@
       <workItem from="1639742694486" duration="590000" />
       <workItem from="1639749749234" duration="307000" />
       <workItem from="1639755299238" duration="183000" />
-      <workItem from="1639759826428" duration="61447000" />
+      <workItem from="1639759826428" duration="64642000" />
+      <workItem from="1641819358196" duration="4180000" />
+      <workItem from="1641905093355" duration="2913000" />
+      <workItem from="1642184532748" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="updated divide to float to fdiv(2)">
       <created>1640259652610</created>
