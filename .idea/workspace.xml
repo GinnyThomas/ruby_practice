@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24d611f9-8e87-49b6-b38b-51fe3ad707f5" name="Changes" comment="updated divide to float to fdiv(2)">
-      <change afterPath="$PROJECT_DIR$/lib/cockroach.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/cockroach_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/double_trouble.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/double_trouble.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1642184532748" duration="2674000" />
       <workItem from="1642345204820" duration="3185000" />
       <workItem from="1642709439911" duration="11450000" />
-      <workItem from="1642780877208" duration="2037000" />
+      <workItem from="1642780877208" duration="2772000" />
     </task>
     <task id="LOCAL-00001" summary="updated divide to float to fdiv(2)">
       <created>1640259652610</created>
