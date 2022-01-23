@@ -28,4 +28,18 @@ RSpec.describe 'check_same_case' do
     b = 'G'
     expect(same_case(a,b)).to eq(1)
   end
+
+  it 'returns -1 if a or b is not a character' do
+    a = 'a'
+    b = '\n'
+    expect(same_case(a,b)).to eq(-1)
+  end
+
+  it 'returns 0 if a or b are not same case' do
+    a = 'a'
+    b = 'A'
+    expect(same_case(a,b)).to eq(0)
+  end
 end
+
+# elsif a.match?(/\^A-Za-z/) || b.match?(/\^A-Za-z/)
