@@ -17,17 +17,14 @@
 require_relative '../lib/help_brazilian_forces'
 
 RSpec.describe 'Help Brazilian Forces' do
-  it 'determines how many bullets needed' do
-    info = ['M4A1', 6]
-    expect(mag_number(info)).to eq(18)
-  end
-end
+  # it 'determines how many bullets needed' do
+  #   info = ['M4A1', 6]
+  #   expect(mag_number(info)).to eq(18)
+  # end
 
-require_relative '../lib/help_brazilian_forces'
-
-RSpec.describe 'Help Brazilian Forces' do
-  it 'determines how many magazines are needed based on the gun and number of streets' do
-    info = ['M4A1', 6]
-    expect(mag_number(info)).to eq(1)
+  it 'determines how many magazines are needed based' do
+    info = ['PT92', 6]
+    expect(mag_number(info)).to eq(2)
   end
+
 end
