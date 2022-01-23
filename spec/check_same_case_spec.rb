@@ -18,8 +18,8 @@ require_relative '../lib/check-same_case'
 #
 RSpec.describe 'check_same_case' do
   it 'returns 1 if the characters are the same case' do
-    a = 'a'
-    b = 'g'
+    a = 'A'
+    b = 'G'
   expect(same_case(a,b)).to eq(1)
   end
 end
