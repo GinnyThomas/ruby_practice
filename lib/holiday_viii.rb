@@ -1,3 +1,3 @@
 def duty_free(price, discount, holiday_cost)
-  166
+  amount_saved = price * (discount/100)
 end
