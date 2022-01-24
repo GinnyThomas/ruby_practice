@@ -19,8 +19,8 @@ RSpec.describe 'for twins, math operations' do
     expect(ice_brick_volume(radius, bottle_length, rim_length)).to eq(16)
   end
 
-  it 'returns the ice bricks volume' do
+  it 'returns the height of the ice brick' do
 
-    expect(ice_brick_volume(1, 10, 2)).to eq(16)
+    expect(ice_brick_volume(1, 10, 2)).to eq(2)
   end
 end
