@@ -23,6 +23,6 @@ RSpec.describe 'holiday VIII duty free' do
     price = 12
     discount = 50
     holiday_cost = 1000
-    expect(duty_free(price, discount, holiday_cost)).to eq(166)
+    expect(duty_free(price, discount, holiday_cost)).to eq(6)
   end
 end
