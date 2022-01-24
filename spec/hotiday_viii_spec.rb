@@ -12,17 +12,24 @@ require_relative '../lib/holiday_viii'
 #     All inputs will be integers. Please return an integer. Round down.
 #
 RSpec.describe 'holiday VIII duty free' do
-  # it 'indicates how many bottles of whiskey would cover the cost of your holiday' do
-  #   price = 12
-  #   discount = 50
-  #   holiday_cost = 1000
-  #   expect(duty_free(price, discount, holiday_cost)).to eq(166)
-  # end
+  it 'indicates how many bottles of whiskey would cover the cost of your holiday' do
+    price = 12
+    discount = 50
+    holiday_cost = 1000
+    expect(duty_free(price, discount, holiday_cost)).to eq(166)
+  end
 
   it 'indicates discount per bottle' do
     price = 12
     discount = 50
     holiday_cost = 1000
-    expect(duty_free(price, discount, holiday_cost)).to eq(6)
+    expect(price * (discount.fdiv(100))).to eq(6)
+  end
+
+  it 'indicates how many bottles of whiskey would cover the cost of your holiday' do
+    price = 17
+    discount = 10
+    holiday_cost = 500
+    expect(duty_free(price, discount, holiday_cost)).to eq(294)
   end
 end
