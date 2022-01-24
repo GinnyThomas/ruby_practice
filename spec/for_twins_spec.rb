@@ -13,14 +13,20 @@ require_relative '../lib/for_twins'
 
 RSpec.describe 'for twins, math operations' do
   it 'returns the ice bricks volume' do
+    radius = 5
+    bottle_length = 30
+    rim_length = 7
+    expect(ice_brick_volume(radius, bottle_length, rim_length)).to eq(1150)
+  end
+
+  it 'returns the ice bricks volume' do
     radius = 1
     bottle_length = 10
     rim_length = 2
     expect(ice_brick_volume(radius, bottle_length, rim_length)).to eq(16)
   end
-
-  it 'returns the height of the ice brick' do
-
-    expect(ice_brick_volume(1, 10, 2)).to eq(2)
-  end
+  # it 'returns the height of the ice brick' do
+  #
+  #   expect(ice_brick_volume(1, 10, 2)).to eq(8)
+  # end
 end
